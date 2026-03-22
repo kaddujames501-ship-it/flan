@@ -23,10 +23,10 @@ poetry add https://github.com/genxnetwork/flan/
    - `poetry --version`
 2. From repo root:
    - `poetry install`
-   - `poetry shell` (or use `poetry run` for each command)
-3. Run a quick local workflow:
+   - `poetry shell` (activates the virtual environment; alternatively, prefix commands with `poetry run`)
+3. Run a quick local workflow (ensure you're in the Poetry environment):
    - `flan global fit`
-   - `flan global predict --file=path/to/your_sample.vcf.gz`
+   - `flan global predict --file=path/to/your_sample.vcf.gz` (use a sample VCF file from the repo's data directory or your own genomic data in VCF format)
 
 ## Usage
 
