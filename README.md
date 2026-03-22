@@ -16,6 +16,18 @@ You can install the Ancestry Prediction tool using poetry. Make sure that you ha
 poetry add https://github.com/genxnetwork/flan/
 ```
 
+## Getting Started
+
+1. Verify prerequisites:
+   - `python3 --version` (should be 3.9+)
+   - `poetry --version`
+2. From repo root:
+   - `poetry install`
+   - `poetry shell` (or use `poetry run` for each command)
+3. Run a quick local workflow:
+   - `flan global fit`
+   - `flan global predict --file=path/to/your_sample.vcf.gz`
+
 ## Usage
 
 To fit the model globally, use the following command:
